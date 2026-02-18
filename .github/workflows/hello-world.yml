@@ -1,4 +1,4 @@
-name: Hello World Workflow
+name: Hello World 
 
 on:
   push:
@@ -34,7 +34,6 @@ jobs:
       - name: Print success message
         run: echo "✅ Workflow completed successfully!"
 
-        on:
-  push:
-  
+
+
 
