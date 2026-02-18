@@ -33,3 +33,8 @@ jobs:
       
       - name: Print success message
         run: echo "✅ Workflow completed successfully!"
+
+        on:
+  push:
+  
+
