@@ -23,3 +23,9 @@ jobs:
       - name: Run tests
         run: pytest
 
+      - name: Access secret
+        run: |
+          echo "Secret length: ${#TEST_SECRET}"
+        env:
+          TEST_SECRET: ${{ secrets.TEST_SECRET }}
+
